@@ -6,6 +6,6 @@ mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true
-})
+}) 
 
 module.exports = { mongoose }
